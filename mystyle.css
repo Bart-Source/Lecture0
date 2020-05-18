@@ -13,4 +13,7 @@
 
 		table {
 		  border-collapse: collapse;
-		}		
+		}	
+
+		input[type=number] {
+			bacground-color: yelow;
