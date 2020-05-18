@@ -22,3 +22,7 @@
 		button:hover {
 			background-color: orange;
 		}
+
+		@media print {
+			.screen-only { display: none; }
+			{
