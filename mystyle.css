@@ -18,3 +18,7 @@
 		input[type=number] {
 			background-color: yellow;
 		}
+
+		button:hover {
+			backgound-color: orange;
+		}
