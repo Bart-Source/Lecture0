@@ -79,10 +79,32 @@
 		    <td>Form with name fields and a button using form, label, input, and button tags</td>
 			  <td> 				  
 				 <form>
-				  <label for="fname">First name:</label><br>
-				  <input type="text" id="fname" name="fname"><br>
-				  <label for="lname">Last name:</label><br>
-				  <input type="text" id="lname" name="lname">
+					 <div>
+						  <label for="fname">First name:</label><br>
+						  <input type="text" id="fname" name="fname" placeholder="First Name"><br>
+						  <label for="lname">Last name:</label><br>
+						  <input type="text" id="lname" name="lname" placeholder="Last Name">
+						  <label for="pword">Password:</label><br>
+						  <input type="password" id="pword" name="pword" placeholder="Password">
+					 </div>
+				</form> 				  
+                             <button type="button">Submit</button> 
+			  </td>		  
+		   </tr>			 
+		  <tr  id="datalist">
+		    <td>datalist</td>
+			  <td> 				  
+				 <form>
+					 <div>
+						  <input name="country" list="countries" placeholder="Country">
+						 <datalist id="countries">
+							<option value="Afghanistan">
+							<option value="Albania">
+							<option value="Algeria">
+							<option value="Andorra">
+							<option value="Angola">
+						 </datalist>
+					 </div>
 				</form> 				  
                              <button type="button">Submit</button> 
 			  </td>		  
